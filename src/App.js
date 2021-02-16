@@ -1,10 +1,15 @@
 import React, {Component} from 'react';
-import {Container, Head} from './styles';
+import {BemVindo, Container, Head, Titulo} from './styles';
 
 function App() {
   return (
     <Container>
-      <Head><a>Projeto</a></Head>
+      <Head>
+        <Titulo>Projeto</Titulo>
+      </Head>
+      <BemVindo cor="000000" tamanho={35}>
+        Bem Vindo
+      </BemVindo>
     </Container>
   );
 }

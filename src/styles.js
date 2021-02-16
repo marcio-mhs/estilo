@@ -14,9 +14,14 @@ export const Head = styled.header`
     display: flex;
     align-items: center;
     justify-content: center;
+`;
 
-    a{
-        font-size: 45px;
-        color: #FFF;
-    }
+export const Titulo = styled.a`
+    font-size: 25px;
+    color: #00FF00;
+`;
+
+export const BemVindo = styled.h1`
+    font-size: ${props => `${props.tamanho}px`};
+    color: ${props => `#${props.cor}`};
 `;
